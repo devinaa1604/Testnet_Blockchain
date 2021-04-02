@@ -1,0 +1,30 @@
+=============== Apr 2, 2021 (CDT) ===============
+17:23:38.678948 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:23:38.744757 db@open opening
+17:23:38.748929 version@stat F·[] S·0B[] Sc·[]
+17:23:38.771781 db@janitor F·2 G·0
+17:23:38.771852 db@open done T·27.032273ms
+17:23:38.774953 db@close closing
+17:23:38.775189 db@close done T·231.252µs
+=============== Apr 2, 2021 (CDT) ===============
+17:28:46.285669 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:28:46.287725 version@stat F·[] S·0B[] Sc·[]
+17:28:46.287810 db@open opening
+17:28:46.287994 journal@recovery F·1
+17:28:46.304335 journal@recovery recovering @1
+17:28:46.328467 memdb@flush created L0@2 N·15 S·1KiB "H,\xa8..a\x91\xaa,v8":"\xecn\xe1..^\x81\xa0,v5"
+17:28:46.337406 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+17:28:46.413247 db@janitor F·3 G·0
+17:28:46.413419 db@open done T·125.560871ms
+17:39:34.335684 db@close closing
+17:39:34.336892 db@close done T·1.203207ms
+=============== Apr 2, 2021 (CDT) ===============
+17:39:41.664900 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:39:41.666049 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+17:39:41.666126 db@open opening
+17:39:41.666292 journal@recovery F·1
+17:39:41.683564 journal@recovery recovering @3
+17:39:41.707852 memdb@flush created L0@5 N·12 S·925B "Dat..ion,v17":"r\x00\x00..m\xb2\x17,v24"
+17:39:41.721206 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+17:39:41.789780 db@janitor F·4 G·0
+17:39:41.789979 db@open done T·123.823732ms
